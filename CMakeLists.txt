@@ -245,6 +245,8 @@ ENDMACRO(CHECK_COMPILER_FLAG)
 
 MESSAGE("------------- PERFORMING COMPILER FLAG CHECKS. ------------")
 
+# Clear previously defined compiler flag
+set(CMAKE_C_FLAGS "")
 
 #Check if debug mode is active
 IF(CMAKE_BUILD_TYPE MATCHES Debug)
