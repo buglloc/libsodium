@@ -122,4 +122,9 @@ android-toolchain-*
 libsodium-android-*
 /bin/
 /obj/
+/lib/*.a
 Vagrantfile
+.idea
+CMakeCache.txt
+CMakeFiles
+Makefile
